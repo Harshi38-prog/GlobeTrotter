@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Globe{
+public class Main{
 
     static class Activity {
         String name;
