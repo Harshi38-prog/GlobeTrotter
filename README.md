@@ -54,15 +54,15 @@ public class GlobeTrotter {
         }
 
         void displayItinerary() {
-            System.out.println("\n🌍 Trip: " + tripName);
+            System.out.println("\nTrip: " + tripName);
             for (CityStop stop : stops) {
-                System.out.println("📍 City: " + stop.cityName);
+                System.out.println("City: " + stop.cityName);
                 for (Activity a : stop.activities) {
                     System.out.println("   - " + a.name + " : ₹" + a.cost);
                 }
                 System.out.println("   City Cost: ₹" + stop.getCityCost());
             }
-            System.out.println("\n💰 Total Trip Cost: ₹" + getTotalCost());
+            System.out.println("\nTotal Trip Cost: ₹" + getTotalCost());
         }
     }
 
